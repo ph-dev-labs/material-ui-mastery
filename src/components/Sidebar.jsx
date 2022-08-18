@@ -18,6 +18,7 @@ export const Sidebar = () => {
         display: { xs: "none", sm: "block" },
       }}
     >
+      <Box position="fixed">
        <List>
           <ListItem disablePadding>
             <ListItemButton component="a" href="#home">
@@ -83,7 +84,8 @@ export const Sidebar = () => {
               <Switch />
             </ListItemButton>
           </ListItem>
-        </List>  
+        </List>
+        </Box>  
     </Box>
   );
 };
